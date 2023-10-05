@@ -249,3 +249,8 @@ img{
         color: $color-3;
     }
 }
+
+.grid-center {
+    display: grid;
+    place-content: center;
+}

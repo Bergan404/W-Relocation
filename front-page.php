@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
  * Template Name: Home Page
@@ -9,12 +9,18 @@
 
 get_header(); ?>
 
-<section class="container py-5" labelledby="hero-heading">
-    <div class="row">
-        <div class="col-12">
-            <h1 id="hero-heading">Hello Woooooorld!!</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, inventore? Excepturi natus doloremque esse suscipit officiis consequatur, ducimus, soluta dolorem, veritatis libero possimus fuga laboriosam nostrum at ipsam a explicabo.</p>
-            <p>Repellendus omnis, quidem ipsa alias iure consequatur quo autem nisi aspernatur, a reprehenderit odit officia dignissimos at illum totam perspiciatis, delectus fugiat quibusdam expedita illo saepe libero. Reprehenderit, accusamus ducimus!</p>
+<section id="homecover-1" class="container-fluid py-5 full-bg" labelledby="hero-heading" style="background-image: url(<?php echo get_theme_file_uri() ?>/assets/img/screen_2x.webp);">
+    <div class="container grid-center h-100">
+        <div class="row justify-content-between gap-5">
+            <div class="col-4">
+                <img src="<?php echo get_theme_file_uri() ?>/assets/img/W-Relocation@4x.png" alt="LOGO">
+            </div>
+            <div class="col white-txt">
+                <h4>Let the experts help you.</h4>
+                <br />
+                <h2>Taking care of your Relocation needs
+                is what we do best.</h2>
+            </div>
         </div>
     </div>
 </section>
