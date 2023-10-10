@@ -11,7 +11,7 @@ get_header(); ?>
 
 <section id="homecover-1" class="container-fluid py-5 full-bg" labelledby="hero-heading" style="background-image: url(<?php echo get_theme_file_uri() ?>/assets/img/screen_2x.webp);">
     <div class="container grid-center h-100">
-        <div class="row justify-content-between gap-5">
+        <div class="row justify-content-between gap-5 p-relative z-5">
             <div class="col-4">
                 <img src="<?php echo get_theme_file_uri() ?>/assets/img/W-Relocation@4x.png" alt="LOGO">
             </div>
@@ -20,6 +20,27 @@ get_header(); ?>
                 <br />
                 <h2>Taking care of your Relocation needs
                 is what we do best.</h2>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </div>
+</section>
+
+<section class="container-fluid py-5">
+    <div class="container">
+        <h2 class="text-center">WHY W RELOCATION</h2>
+        <div class="row py-4">
+            <div class="col">
+                <h4>TECHNOLOGY.</h4>
+            </div>
+            <div class="col">
+                <h4>TECHNOLOGY.</h4>
+            </div>
+            <div class="col">
+                <h4>TECHNOLOGY.</h4>
+            </div>
+            <div class="col">
+                <h4>TECHNOLOGY.</h4>
             </div>
         </div>
     </div>

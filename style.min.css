@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;
+
 /*!
  * Theme Name: W Relocation
  * Author: StellarEdge
@@ -7,7 +9,20 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * This theme, like WordPress, is licensed under the GPL.
    Use it to make something cool, have fun, and share what you've learned with others.
-*/.center-txt{text-align:center}
+*/
+
+0,
+500;0,
+600;0,
+700;0,
+800;0,
+900;1,
+400;1,
+500;1,
+600;1,
+700;1,
+800;1,
+900&display=swap");.center-txt{text-align:center}
 .left-txt{text-align:left}
 .right-txt{text-align:right}
 .white-txt{color:#fff}
@@ -69,10 +84,10 @@ body{font-family:sans-serif;margin:0;padding:0}
 body.no-scroll{overflow:hidden;width:100vw;height:100vh}
 h1,h2,h3,h4,h5,h6{line-height:1em;margin:0 0 1rem;font-weight:bold}
 h1{font-size:3rem}
-h2{font-size:1.8rem}
+h2{font-size:1.8rem;font-family:'Playfair Display',serif;font-weight:200}
 h2.lg{font-size:2.5rem}
 h3{font-size:3rem}
-h4{font-size:1.5rem}
+h4{font-size:1.5rem;font-family:'Playfair Display',serif;font-weight:200}
 h5{font-size:.8rem}
 h6{font-size:.5rem}
 p{font-size:1rem;margin:0 0 1rem;line-height:1.5em}
@@ -80,6 +95,7 @@ img{height:auto;max-width:100%}
 img.full-width-img{width:100%}
 .btn{padding:.5rem 1.5rem;text-transform:uppercase;font-weight:bold;background-color:crimson;color:#fff;cursor:pointer;border:0;-webkit-transition:all 350ms ease-in-out;transition:all 350ms ease-in-out}
 .btn:hover{background-color:#333;color:#fff}
+.z-5{z-index:5}
 .hero{position:relative;min-height:50vh}
 .full-bg{background-size:cover;background-position:center}
 .overlay{position:absolute;width:100%;height:100%;top:0;left:0;z-index:0;background-color:rgba(0,0,0,0.5)}
