@@ -108,6 +108,7 @@ img.full-width-img{width:100%}
 .progress-bar{width:100%;height:17px;border-radius:10px;background-color:crimson;position:relative;overflow:hidden}
 .progress-bar .progress{background-color:crimson;position:absolute;top:0;left:0;height:100%;width:0;-webkit-transition:all 1000ms ease-out;transition:all 1000ms ease-out}
 .white-bg{background-color:#fff}
+.gray-bg{background-color:#383838}
 .color-1-bg{background-color:crimson}
 .color-2-bg{background-color:#4682b4}
 .color-3-bg{background-color:#eee}

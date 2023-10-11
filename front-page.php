@@ -19,7 +19,7 @@ get_header(); ?>
                 <h4>Let the experts help you.</h4>
                 <br />
                 <h2>Taking care of your Relocation needs
-                is what we do best.</h2>
+                    is what we do best.</h2>
             </div>
         </div>
         <div class="overlay"></div>
@@ -42,6 +42,18 @@ get_header(); ?>
             <div class="col">
                 <h4>TECHNOLOGY.</h4>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid py-5 gray-bg">
+    <div class="row">
+        <div class="col">
+
+        </div>
+        <div class="col">
+            <h3>DISCOVER W RELOCATION</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </div>
     </div>
 </section>
