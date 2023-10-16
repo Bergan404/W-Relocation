@@ -123,15 +123,22 @@ img.full-width-img{width:100%}
 #close-banner{position:absolute;top:50%;right:15px;-webkit-transform:translateY(-50%);transform:translateY(-50%);cursor:pointer}
 #close-banner:hover{color:#eee}
 .grid-center{display:grid;place-content:center}
+.discover-btn{border:0;color:white;border-radius:20px;background-color:rgba(128,128,128,0.61);font-size:1.5em;padding:.2em 1em;-webkit-transition:.2s all ease-in-out;transition:.2s all ease-in-out}
+.discover-btn:hover{background-color:white;color:gray}
+.line-above{position:relative}
+.line-above::before{content:"";background-color:black;height:5px;width:100px;position:absolute;top:-.5em;left:0;right:0;margin:auto}
+.svg-icon{height:12em}
 header.scroll-down{top:-100%}
 .navigation-menu .menu{list-style:none;margin:0;padding:0}
 .navigation-menu .menu .menu-item{margin:0 15px;display:inline-block}
-.navigation-menu .menu .menu-item a{color:black;text-decoration:none;text-transform:uppercase}
+.navigation-menu .menu .menu-item a{color:white;text-decoration:none;text-transform:capitalize}
 .mobile-nav{background-color:blue;position:fixed;z-index:99;top:0;left:0;height:100vh;max-width:300px;width:100%;padding:80px 30px 50px 20px;overflow-y:auto;-webkit-transform:translateX(-100vw);transform:translateX(-100vw);-webkit-transition:-webkit-transform .55s cubic-bezier(0.785,0.135,0.15,0.86);transition:-webkit-transform .55s cubic-bezier(0.785,0.135,0.15,0.86);transition:transform .55s cubic-bezier(0.785,0.135,0.15,0.86);transition:transform .55s cubic-bezier(0.785,0.135,0.15,0.86),-webkit-transform .55s cubic-bezier(0.785,0.135,0.15,0.86)}
 .mobile-nav.open{-webkit-transform:translateX(0);transform:translateX(0)}
 .mobile-nav .menu{list-style:none;margin:0;padding:0}
 .mobile-nav .menu .menu-item{margin:15px 0}
 .mobile-nav .menu .menu-item a{color:white;text-decoration:none;text-transform:uppercase;font-weight:700;font-size:1em}
+.navbar-logo{text-decoration:none}
+.navbar-logo p{font-size:1.2em;font-weight:bold;color:white;margin-bottom:0;text-transform:uppercase}
 .burger-overlay{position:fixed;top:0;left:0;z-index:1;width:100%;height:100%;-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out;background-color:#000;opacity:0;visibility:hidden}
 .burger-overlay.show{opacity:.5;visibility:visible}
 #burger-nav{width:40px;height:30px;position:relative;-webkit-transform:rotate(0);transform:rotate(0);-webkit-transition:.5s ease-in-out;transition:.5s ease-in-out;cursor:pointer;z-index:999}

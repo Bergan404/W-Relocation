@@ -266,3 +266,51 @@ img{
     display: grid;
     place-content: center;
 }
+
+.discover-btn {
+    border: none;
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.61);
+    font-size: 1.5em;
+    padding: .2em 1em;
+    transition: .2s all ease-in-out;
+
+    &:hover {
+        background-color: white;
+        color: gray;
+    }
+}
+
+.line-above {
+    position: relative;
+
+    &::before {
+        content: "";
+        background-color: black;
+        height: 5px;
+        width: 100px;
+        position: absolute;
+        top: -.5em;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+.svg-icon {
+    height: 12em;
+}
+
+.gray {
+
+}
+.blue {
+
+}
+.purple {
+
+}
+.brown {
+    
+}

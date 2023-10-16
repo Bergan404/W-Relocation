@@ -12,13 +12,13 @@
 <body <?php body_class(); ?>>
   <?php wp_body_open(); ?>
 
-  <header id="navbar-1" class="container-fluid p-0 p-sticky color-1-bg" role="banner">
-    <div class="container py-2">
+  <header id="navbar-1" class="container-fluid p-0 p-relative z-5 gray-bg" role="banner">
+    <div class="p-3">
       <div class="row justify-content-between align-items-center">
         <div class="col-auto">
-          <!-- <a href="/">
-            <img src="<?php echo get_theme_file_uri(); ?>/assets/img/logo.png" alt="LOGO ALT GOES HERE" style="width:150px;">
-          </a> -->
+          <a class="navbar-logo" href="/">
+            <p>W Relocations Company</p>
+          </a>
         </div>
         <div class="col-auto">
           <nav class="navigation-menu d-none d-lg-flex align-items-center">
