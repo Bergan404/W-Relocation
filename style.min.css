@@ -88,7 +88,7 @@ h2{font-size:1.8rem;font-family:'Playfair Display',serif;font-weight:200}
 h2.lg{font-size:2.5rem}
 h3{font-size:3rem}
 h4{font-size:1.5rem;font-family:'Playfair Display',serif;font-weight:200}
-h5{font-size:.8rem}
+h5{font-size:1.5rem}
 h6{font-size:.5rem}
 p{font-size:1rem;margin:0 0 1rem;line-height:1.5em}
 img{height:auto;max-width:100%}
@@ -128,6 +128,10 @@ img.full-width-img{width:100%}
 .line-above{position:relative}
 .line-above::before{content:"";background-color:black;height:5px;width:100px;position:absolute;top:-.5em;left:0;right:0;margin:auto}
 .svg-icon{height:12em}
+.gray{color:#768fab}
+.blue{color:#1487a1}
+.purple{color:#9645e4}
+.brown{color:#a29086}
 header.scroll-down{top:-100%}
 .navigation-menu .menu{list-style:none;margin:0;padding:0}
 .navigation-menu .menu .menu-item{margin:0 15px;display:inline-block}

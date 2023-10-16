@@ -1,92 +1,103 @@
 /* Basic Styles */
 
-html{
+html {
     overflow-x: hidden;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: $primary-font;
     margin: 0px;
     padding: 0px;
-    &.no-scroll{
+
+    &.no-scroll {
         overflow: hidden;
         width: 100vw;
         height: 100vh;
     }
 }
 
-a{
+a {}
 
-}
-
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     line-height: 1em;
     margin: 0px 0px 1rem;
     font-weight: bold;
 }
 
-h1{
+h1 {
     font-size: 3rem;
-    @include md-screen{
+
+    @include md-screen {
         font-size: 5.5rem;
     }
 }
 
-h2{
+h2 {
     font-size: 1.8rem;
     font-family: 'Playfair Display', serif;
     font-weight: 200;
-    &.lg{
+
+    &.lg {
         font-size: 2.5rem;
     }
-    @include md-screen{
+
+    @include md-screen {
         font-size: 3rem;
     }
-    @include lg-screen{
+
+    @include lg-screen {
         font-size: 4rem;
-        &.lg{
+
+        &.lg {
             font-size: 6rem;
         }
     }
 }
 
-h3{
+h3 {
     font-size: 3rem;
 }
 
-h4{
+h4 {
     font-size: 1.5rem;
     font-family: 'Playfair Display', serif;
     font-weight: 200;
-    @include md-screen{
+
+    @include md-screen {
         font-size: 1.5rem;
     }
 }
 
-h5{
-    font-size: .8rem;
+h5 {
+    font-size: 1.5rem;
 }
 
-h6{
+h6 {
     font-size: .5rem;
 }
 
-p{
+p {
     font-size: 1rem;
     margin: 0px 0px 1rem;
     line-height: 1.5em;
 }
 
-img{
+img {
     height: auto;
     max-width: 100%;
-    &.full-width-img{
+
+    &.full-width-img {
         width: 100%;
     }
 }
 
-.btn{
+.btn {
     padding: .5rem 1.5rem;
     text-transform: uppercase;
     font-weight: bold;
@@ -95,7 +106,8 @@ img{
     cursor: pointer;
     border: none;
     transition: all 350ms ease-in-out;
-    &:hover{
+
+    &:hover {
         background-color: #333;
         color: #fff;
     }
@@ -107,27 +119,28 @@ img{
     z-index: 5;
 }
 
-.hero{
-	position: relative;
-	min-height: 50vh;
-    @include md-screen{
+.hero {
+    position: relative;
+    min-height: 50vh;
+
+    @include md-screen {
         min-height: 100vh;
     }
 }
 
-.full-bg{
+.full-bg {
     background-size: cover;
     background-position: center;
 }
 
-.overlay{
+.overlay {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0px;
     left: 0px;
     z-index: 0;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .d-desktop-none {
@@ -138,11 +151,12 @@ img{
 
 /* Responsive Videos */
 
-.vid-wrap{
+.vid-wrap {
     position: relative;
     padding-bottom: 56.25%;
     overflow: hidden;
-    iframe{
+
+    iframe {
         position: absolute;
         top: 0px;
         left: 0px;
@@ -151,11 +165,12 @@ img{
     }
 }
 
-.vid-wrap-square{
+.vid-wrap-square {
     position: relative;
     padding-bottom: 100%;
     overflow: hidden;
-    iframe{
+
+    iframe {
         position: absolute;
         top: 0px;
         left: 0px;
@@ -168,21 +183,22 @@ img{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.525);
 }
 
-.p-sticky{
+.p-sticky {
     position: sticky;
     top: 0;
 }
 
 // Progress Bar
 
-.progress-bar{
+.progress-bar {
     width: 100%;
     height: 17px;
     border-radius: 10px;
     background-color: $color-1;
     position: relative;
     overflow: hidden;
-    .progress{
+
+    .progress {
         background-color: $color-1;
         position: absolute;
         top: 0px;
@@ -195,7 +211,7 @@ img{
 
 // Background Colors
 
-.white-bg{
+.white-bg {
     background-color: #fff;
 }
 
@@ -203,61 +219,62 @@ img{
     background-color: $gray;
 }
 
-.color-1-bg{
+.color-1-bg {
     background-color: $color-1;
 }
 
-.color-2-bg{
+.color-2-bg {
     background-color: $color-2;
 }
 
-.color-3-bg{
+.color-3-bg {
     background-color: $color-3;
 }
 
-.transparent-bg{
-    background-color: rgba(0,0,0,.1);
+.transparent-bg {
+    background-color: rgba(0, 0, 0, .1);
 }
 
 // Text Colors
 
-.white-txt{
+.white-txt {
     color: #fff;
 }
 
-.black-txt{
+.black-txt {
     color: #000;
 }
 
-.color-1-txt{
+.color-1-txt {
     color: $color-1;
 }
 
-.color-2-txt{
+.color-2-txt {
     color: $color-2;
 }
 
-.color-3-txt{
+.color-3-txt {
     color: $color-3;
 }
 
-.semi-bold{
+.semi-bold {
     font-weight: 600;
 }
 
-.text-shadow{
+.text-shadow {
     text-shadow: -5px 5px 0px $color-1;
 }
 
 // Banner
 
-#close-banner{
+#close-banner {
     position: absolute;
     top: 50%;
     right: 15px;
     transform: translateY(-50%);
     cursor: pointer;
-    &:hover{
+
+    &:hover {
         color: $color-3;
     }
 }
@@ -303,14 +320,18 @@ img{
 }
 
 .gray {
-
+    color: #768FAB;
 }
+
 .blue {
-
+    color: #1487A1;
 }
+
 .purple {
+    color: #9645E4;
 
 }
+
 .brown {
-    
+    color: #A29086;
 }
